@@ -4,7 +4,7 @@ html {
 
 header h1 {
   font-family: "PT Sans", sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   color: #461624;
 }
 
@@ -13,10 +13,12 @@ a:link {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 a:hover {
   color: #461624;
+  text-decoration: underline;
 }
 
 li {
@@ -25,12 +27,78 @@ li {
 
 h2 {
   font-family: "PT Sans", sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   color: #461624;
 }
 
 figcaption {
   text-align: center;
   font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+}
+
+article > p:nth-child(0n+1) {
   font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "PT Serif", serif;
+}
+
+img {
+  width: 100%;
+}
+
+article > p:nth-child(0n+2), p:nth-child(0n+3) {
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+}
+
+blockquote {
+  font-family: "PT Serif", serif;
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+blockquote > cite {
+  font-family: "PT Serif", serif;
+  font-size: 1.0rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+blockquote > strong {
+  font-weight: normal;
+}
+
+html main article ol li {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+  list-style-type: lower-greek;
+}
+
+h2 + p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+dt {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+data {
+  font-size: 1.2rem;
+}
+
+a {
+  color: #8a2d41;
+  font-family: "PT Serif", serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+aside ul li {
+  font-size: 1.0rem;
+  list-style-type: circle;
 }
